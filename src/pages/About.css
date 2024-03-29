@@ -1,0 +1,28 @@
+.flipper{
+  /* border:2px solid black; */
+  transition:0.5s;
+  perspective:1000px;
+}
+.flipper:hover{
+  transform:rotateY(180deg);
+}
+.pict:hover{
+  opacity:0;
+}
+/* .pico{
+  opacity: 0;
+}
+.pico:hover{
+  opacity: 1;
+} */
+
+.flipper img{
+  /* position:absolute;
+  display:block;
+  border-radius: 100%; */
+  /* height:500px;
+  width:800px; */
+}
+.pict , .pico{
+  transition:0.6s;
+}
